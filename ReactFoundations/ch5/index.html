@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React with Babel</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const app = document.getElementById("app");
+       
+        function Header() {
+            return <h1>Develop. Preview. Ship.</h1>;
+        }
+           
+        function HomePage() {
+            return (
+                <div>
+                    <Header />
+                    <Header />
+                </div>
+            );
+        }
+        
+        ReactDOM.render(<HomePage />, app);
+    </script>
+  </body>
+</html>
