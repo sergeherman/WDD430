@@ -7,3 +7,5 @@
 - Completed Chapter 6: Displaying Data with Props
 - Completed Chapter 7: Adding Interactivity with State
 - Completed Chapter 8: From React to Next.js
+- Completed Chapter 9: Installing Next.js
+- Completed Chapter 10: Server and Client Components
