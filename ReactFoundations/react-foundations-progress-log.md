@@ -6,4 +6,4 @@
 - Completed Chapter 5: Building UI with Components
 - Completed Chapter 6: Displaying Data with Props
 - Completed Chapter 7: Adding Interactivity with State
-- Completed Chapter 8: 
+- Completed Chapter 8: From React to Next.js
